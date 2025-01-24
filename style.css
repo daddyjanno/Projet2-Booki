@@ -1,17 +1,17 @@
 /* Import components */
-@import './styles/components/card.css';
-@import './styles/components/icon.css';
-@import './styles/components/filter.css';
-@import './styles/components/search.css';
+@import './css/components/card.css';
+@import './css/components/icon.css';
+@import './css/components/filter.css';
+@import './css/components/search.css';
 
 /* Import layouts */
-@import './styles/layout/page.css';
-@import './styles/layout/header.css';
-@import './styles/layout/main.css';
-@import './styles/layout/info-group.css';
-@import './styles/layout/info.css';
-@import './styles/layout/filters.css';
-@import './styles/layout/accomodations.css';
-@import './styles/layout/popular.css';
-@import './styles/layout/activities.css';
-@import './styles/layout/footer.css';
+@import './css/layout/page.css';
+@import './css/layout/header.css';
+@import './css/layout/main.css';
+@import './css/layout/info-group.css';
+@import './css/layout/info.css';
+@import './css/layout/filters.css';
+@import './css/layout/accomodations.css';
+@import './css/layout/popular.css';
+@import './css/layout/activities.css';
+@import './css/layout/footer.css';
