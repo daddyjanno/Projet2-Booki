@@ -1,0 +1,17 @@
+/* Import components */
+@import './styles/components/card.css';
+@import './styles/components/icon.css';
+@import './styles/components/filter.css';
+@import './styles/components/search.css';
+
+/* Import layouts */
+@import './styles/layout/page.css';
+@import './styles/layout/header.css';
+@import './styles/layout/main.css';
+@import './styles/layout/info-group.css';
+@import './styles/layout/info.css';
+@import './styles/layout/filters.css';
+@import './styles/layout/accomodations.css';
+@import './styles/layout/popular.css';
+@import './styles/layout/activities.css';
+@import './styles/layout/footer.css';
