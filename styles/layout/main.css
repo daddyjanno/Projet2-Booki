@@ -1,0 +1,35 @@
+/****** Main ***********/
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    width: 100%;
+}
+
+/****** Populaires And Populaires ***********/
+.accomodation-and-popular {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5em;
+    width: 100%;
+}
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    /****** Hebergements and populaires ***********/
+    .accomodation-and-popular {
+        flex-direction: column;
+    }
+}
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    /****** Main ***********/
+
+    .main {
+        width: auto;
+    }
+    .accomodation-and-popular {
+        flex-direction: column-reverse;
+    }
+}

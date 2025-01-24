@@ -1,0 +1,19 @@
+/****** Info ***********/
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 0.625em;
+}
+.info-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.375em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+}
+.fa-info {
+    font-size: 12px;
+}

@@ -1,0 +1,37 @@
+/****** Card ***********/
+.card {
+    position: relative;
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    object-fit: cover;
+    overflow: hidden;
+    padding: 5px;
+}
+.card-content {
+    display: flex;
+    padding: 0 1em 1em 1em;
+}
+.card-title {
+    font-size: 16px;
+}
+.card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+    margin: 0.3em 0em;
+}
+.euro {
+    font-weight: 700;
+}
+
+/* link making all cards clickable */
+.card-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

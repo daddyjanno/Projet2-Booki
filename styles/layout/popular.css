@@ -1,0 +1,98 @@
+/****** Populaires ***********/
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: var(--main-bg-color);
+    width: 30%;
+    border-radius: 1em;
+    gap: 1.25em;
+    padding: 1.875em;
+}
+
+.popular-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 2em;
+}
+
+.popular-cards .card {
+    display: flex;
+    height: 10em;
+}
+
+.popular-cards img {
+    width: 33%;
+    border-radius: 1em 0 0 1em;
+}
+
+.popular-cards .card-content {
+    width: 67%;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 0.5em;
+}
+
+.popular-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.popular-cards .card-subtitle {
+    margin: 0;
+}
+
+.popular-cards .card-rating {
+    margin-bottom: 5px;
+}
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .popular {
+        width: auto;
+    }
+
+    .popular-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .popular-cards .card {
+        width: 30%;
+    }
+
+    .popular-cards .card-title {
+        font-size: 14px;
+    }
+
+    .popular-cards .card-subtitle {
+        font-size: 13px;
+    }
+}
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    /****** Populaires ***********/
+    .popular {
+        border-radius: 0%;
+    }
+    .popular-cards {
+        flex-direction: column;
+        width: 100%;
+    }
+    .popular-cards .card {
+        width: 100%;
+    }
+}

@@ -1,0 +1,29 @@
+/****** Footer ***********/
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+    width: auto;
+    padding: 2em;
+    margin-top: 2.188em;
+    gap: 1em;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 33%;
+}
+
+/****** Media queries ***********/
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    /****** Footer ***********/
+    footer {
+        flex-direction: column;
+        gap: 4em;
+    }
+    .about {
+        width: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+/****** Info-group ***********/
+
+.info-group {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.875em;
+    width: 100%;
+}
+.headline {
+    margin-bottom: 1em;
+}
+.headline h1 {
+    margin-bottom: 1em;
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    .info-group {
+        padding: 0 1.25em;
+        width: calc(100% - 2.5em);
+    }
+    .headline {
+        width: 100%;
+    }
+}

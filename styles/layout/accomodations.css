@@ -1,0 +1,60 @@
+/****** Hébergements ***********/
+.accomodation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: var(--main-bg-color);
+    border-radius: 1em;
+    width: 70%;
+    gap: 1.25em;
+    padding: 1.875em;
+}
+.accomodation h2 {
+    font-weight: bold;
+}
+.accomodation-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25em;
+    justify-content: space-around;
+}
+.accomodation-cards .card {
+    display: flex;
+    flex-direction: column;
+}
+.accomodation-cards img {
+    height: 11.25em;
+    width: calc(100% - 10px);
+    border-radius: 1em 1em 0 0;
+}
+.accomodation-cards .card-content {
+    flex-direction: column;
+}
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    /****** Hebergements ******/
+
+    .accomodation {
+        width: auto;
+    }
+}
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    /****** Hébergements ***********/
+    .accomodation {
+        background-color: white;
+        border-radius: 0%;
+        padding-top: 0;
+    }
+    .accomodation-cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .accomodation-cards .card {
+        width: 100%;
+    }
+}
