@@ -42,7 +42,7 @@ J'ai été chargé d'intégrer l'interface du site avec du code HTML et CSS à p
 Le site est déployé et accessible à l'adresse suivante : [Booki](https://daddyjanno.github.io/Projet2-Booki/)
 
 ## Déploiement
-Le site est déployé en utilisant GitHub Pages. Pour déployer vos propres modifications :
+Le site est déployé en utilisant GitHub Pages.
 
 ## Développé avec :
 
